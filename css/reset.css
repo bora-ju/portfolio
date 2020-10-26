@@ -28,5 +28,3 @@ a:link    {color:#696f74; text-decoration:none}
 a:visited {color:#696f74; text-decoration:none}
 a:hover   {color:#486d9b; text-decoration:none}
 a:active  {color:#486d9b; text-decoration:none}
-
-body {overflow-y:scroll;color:#696f74; font-size:0.8em; font-family: 'NanumSquare', sans-serif !important;}

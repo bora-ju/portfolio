@@ -24,7 +24,7 @@ header
 header { position: absolute; top:30px; left:0; width: 100%; z-index: 999; }
 
 .h_container { position: relative; width: 70%; height: auto; margin: 0 auto;  transition: all .4s;}
-.h_container h1 a.pc {display:block; width: auto; height: fit-content; padding: 30px; color: #fff; background-color: rgba(0,0,0,0.4); letter-spacing:10px; line-height: 20px; writing-mode:vertical-rl; text-orientation: upright; font-size: 20px; font-family: 'proxima';}
+.h_container h1 a.pc {display:block; width: auto; height: fit-content; padding: 30px; color: #fff; background-color: rgba(0,0,0,0.4); letter-spacing:0px; line-height: 20px; writing-mode:vertical-rl; text-orientation: upright; font-size: 20px;}
 _:-ms-lang(x), .h_container h1 a.pc {width:130px; writing-mode:horizontal-tb; }
 @media screen and (min-width:0\0) {
     .h_container h1 a.pc{width:130px;} /* backslash-9 removes ie11+ & old Safari 4 */
@@ -34,12 +34,12 @@ _:-ms-lang(x), .h_container h1 a.pc {width:130px; writing-mode:horizontal-tb; }
 }
 
 .h_container h1 a.mobile {display:none; width: auto; height: fit-content;  color: #fff; background-color: rgba(0,0,0,0.4);line-height: 20px;
- font-size: 20px;font-family: 'proxima';}
+ font-size: 20px;}
 .h_container h1 a img { padding: 20px 0; transition: all .5s; }
 .h_container nav { display: block; }
 .h_container.fixed_top { position: fixed; top:0; left:0; right:0; width: 100%;}
 .h_container.fixed_top h1 a.pc {display:none;}
-.h_container.fixed_top h1 a.mobile {display:table-cell; vertical-align: middle; width: 60px; height: 60px;color: #fff;background-color: rgba(0,0,0,0.4);line-height: 40px;font-size: 25px;font-family: 'proxima'; text-align: center;}
+.h_container.fixed_top h1 a.mobile {display:table-cell; vertical-align: middle; width: 60px; height: 60px;color: #fff;background-color: rgba(0,0,0,0.4);line-height: 40px;font-size: 25px; text-align: center;}
 .h_container.fixed_top h1 a img { width:45%; height:auto; padding: 45px 0 0; }
 .mh_container { position: relative; width: 70%; height: 60px; margin: 0 auto;  transition: all .4s;}
 .mh_container h1 a{ width: auto; height: fit-content; color: #fff; background-color: rgba(0,0,0,0.4);  line-height: 20px; font-size: 20px;}
@@ -152,12 +152,12 @@ Hamburger menu
 .nav-trigger span::after {
   position: absolute;
   width: 36px;
-  height: 4px;
+  height: 2px;
   background: #f6f8f8;
 }
 
 .nav-trigger span {
-  top: calc(50% - 2px);
+  top: calc(50% - 0px);
   left: calc(50% - 18px);
   transition: background .3s;
 }
@@ -262,7 +262,6 @@ Navigation
   padding: .3em 0;
   font-size: 1.7rem;
   font-weight: 400;
-  /* font-family: serif; */
   text-decoration: none;
   color: #fff;
   transform: translateZ(0);
@@ -367,12 +366,10 @@ font-weight: bold;
 
 .effectTab-header .title {
 	font-size: 36px;
-	font-family: Oswald, sans-serif
 }
 
 .effectTab-header .caption {
 	font-size: 30px;
-	font-family: 'Open Sans', sans-serif
 }
 
 .column-1,
@@ -485,7 +482,6 @@ font-weight: bold;
 
 .header h1 {
 	color: #fff;
-	font-family: Poppins;
 	font-weight: 400;
 	font-size: 2.2rem;
 	padding-left: 40px
@@ -693,7 +689,7 @@ font-weight: bold;
 .tab-text h2 {
 	color: #fff;
 	margin: 0;
-	font-size: 1.5rem
+	font-size: 2rem
 }
 
 .tab-text p {
@@ -994,14 +990,11 @@ font-weight: bold;
 	transition: transform .35s;
 	font-weight: 600;
 	font-size: 1.7rem;
-	font-family: Oswald, sans-serif
 }
 
 .effect.effect-one p,
 .effect.effect-two h2,
-.effect.effect-two p.description {
-	font-family: Poppins
-}
+.effect.effect-two p.description {}
 
 .effect-one .pt-1 {
 	padding-top: 10%!important
@@ -1190,7 +1183,6 @@ font-weight: bold;
 	transform: translate3d(25px, 0, 0);
 	-webkit-transform: translate3d(25px, 0, 0);
 	transition: all .35s;
-	font-family: Oswald;
 	font-size: 1.6rem
 }
 
@@ -1323,7 +1315,6 @@ font-weight: bold;
 	left: 0;
 	bottom: 0;
 	padding: 1em 1.2em;
-	font-family: Oswald
 }
 
 .effect-four .tab-text p {
@@ -1340,7 +1331,6 @@ font-weight: bold;
 	-webkit-transform: translate3d(40px, 0, 0);
 	opacity: 0;
 	transition: all .35s;
-	font-family: "Open sans";
 	padding-bottom: 5px
 }
 
@@ -1356,7 +1346,6 @@ font-weight: bold;
 
 .effect.effect-five h2,
 .effect.effect-six h2 {
-	font-family: Oswald
 }
 
 .effect-four .tab-text p:after {
@@ -1626,7 +1615,6 @@ font-weight: bold;
 	border-right: 3px solid #fff;
 	opacity: 0;
 	transition: all .35s;
-	font-family: Poppins
 }
 
 .effect.effect-six:hover p {
@@ -1674,7 +1662,6 @@ font-weight: bold;
 	transition: all .35s;
 	-webkit-transform: scale3d(.8, .8, 1);
 	-webkit-transition: all .35s;
-	font-family: Oswald
 }
 
 .effect.effect-seven .col8-head {
@@ -1694,7 +1681,6 @@ font-weight: bold;
 	opacity: 0;
 	transition: all .35s;
 	-webkit-transition: all .35s;
-	font-family: Poppins
 }
 
 .effect.effect-seven:hover p {
@@ -1786,7 +1772,6 @@ font-weight: bold;
 }
 
 .effect.effect-eight .tab-text h2 {
-	font-family: Oswald;
 	transform: scale3d(.9, .9, 1);
 	transition: all .5s ease-in-out;
 	-webkit-transform: scale3d(.9, .9, 1);
@@ -1812,7 +1797,6 @@ font-weight: bold;
 	opacity: 0;
 	transition: all .35s;
 	-transition: all .35s;
-	font-family: Poppins
 }
 
 .effect.effect-eight:hover p {
@@ -1901,7 +1885,6 @@ font-weight: bold;
 }
 
 .effect.effect-nine .tab-text h2 {
-	font-family: Oswald;
 	transform: scale3d(.9, .9, 1);
 	transition: all .5s ease-in-out;
 	-webkit-transform: scale3d(.9, .9, 1);
@@ -1926,7 +1909,6 @@ font-weight: bold;
 	opacity: 0;
 	-webkit-transition: all .35s;
 	transition: all .35s;
-	font-family: Poppins;
 	z-index: 2;
 	position: relative
 }
@@ -2026,7 +2008,6 @@ font-weight: bold;
 	-webkit-transform: translate3d(0, 5px, 0);
 	transition: all .35s;
 	-webkit-transition: all .35s;
-	font-family: Oswald;
 	z-index: 2;
 	position: relative;
 	padding-top: 10%
@@ -2045,7 +2026,6 @@ font-weight: bold;
 	transition: all .35s;
 	-webkit-transform: translate3d(0, 10px, 0);
 	-webkit-transition: all .35s;
-	font-family: Poppins
 }
 
 .effect.effect-ten:hover p {
@@ -2167,7 +2147,6 @@ font-weight: bold;
 	transition: all .55s 0s;
 	-webkit-transform: translate3d(-10px, 0, 0);
 	-webkit-transition: all .55s 0s;
-	font-family: Oswald;
 	z-index: 2;
 	position: relative;
 	padding-top: 10%
@@ -2193,7 +2172,6 @@ font-weight: bold;
 	word-spacing: 3px;
 	top: 65px;
 	width: calc(100% - 4em);
-	font-family: Poppins
 }
 
 .effect.effect-eleven:hover p {
@@ -2288,7 +2266,6 @@ font-weight: bold;
 	padding: .5em 0;
 	text-align: left;
 	overflow: hidden;
-	font-family: Oswald
 }
 
 .effect.effect-twelve h2:after {
@@ -2311,7 +2288,7 @@ font-weight: bold;
 
 .effect-twelve .tab-text p {
 	padding: .7em 0;
-	font-size: .8rem;
+	font-size: 1rem;
 	text-align: left;
 	line-height: 1.1;
 	transform: translate3d(100%, 0, 0);
@@ -2319,7 +2296,6 @@ font-weight: bold;
 	opacity: 0;
 	transition: all .35s;
 	-webkit-transition: all .35s;
-	font-family: Poppins
 }
 
 .effect-twelve:hover p {
@@ -2389,7 +2365,6 @@ font-weight: bold;
 @media (min-width:576px) and (max-width:767px) {
 	.tab .effect .tab-text h2 {
 		font-size: 1.3rem!important;
-		font-family: Oswald
 	}
 	.effect.effect-two p.description {
 		bottom: 5.8em
@@ -2482,14 +2457,13 @@ footer { background-color: #3a3a3a;position: relative; }
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 32px;}
 header { top:inherit; top:0; }
 .nav-container {width: 100%; padding: 2em 2em;}
 .h_container {height: 60px; width: 100%;}
+.h_container h1 a.pc {display: none;}
 .h_container h1 a.mobile {display: block; background:none; color:#FFF; position: relative;z-index: 4;top: 0px;right: 0;overflow: hidden;  white-space: nowrap;  float: left;  padding:20px 23px; z-index: 1;}
 .nav-trigger {background: none;}
-.h_container h1 a.pc {display: none;}
+
 .h_container.fixed_top {position: fixed;top: 0;left: 0;width: 100%;background-color: rgba(255,255,255,0.9); height:60px;}
 .h_container.fixed_top h1 a.pc {display:none;}
 .h_container.fixed_top h1 a.mobile {display:block; background: none; line-height: 15px;}
@@ -2519,5 +2493,4 @@ header { top:inherit; top:0; }
 .main_visual .main-slider .txt {top:30%; }
 .main_visual .main-slider .txt strong {font-size:25px; margin-bottom:0;}
 .main_visual .main-slider .txt p {font-size:16px;}
-
 }
