@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" property="og:title" content="Bora's Portfolio" />
+    <meta name="description" content="포트폴리오, 경력, 커리어" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="" />
+
+    <title>보라</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sub.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/slick-slider.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145387433-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '');
+    </script>
+    <script>
+
+    var wow = new WOW(
+    		  { mobile: false }
+    		);
+    		wow.init();
+    </script>
+
+</head>
+<body>
+    <!-- the royal company -->
+    <header>
+   		 <h2 class="sr_only">상단영역</h2>
+        <div class="h_container">
+            <h1><a href="/">Bora<br>Ju</a>
+
+              <a href="#navigation" class="nav-trigger">
+                  <span></span>
+                </a>
+            </h1>
+            <nav>
+            	<h2 class="sr_only">메인메뉴영역</h2>
+
+              <!--메뉴 아이콘 -->
+              <nav class="nav-container" id="navigation">
+
+            <ul class="nav">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+              <div class="overlay"></div>
+              <!-- Improve main element 3d movement -->
+
+
+
+
+            </nav>
+        </div>
+        <div class="mh_container">
+
+          <h1><a href="/">Bora<br>Ju</a>
+          </h1>
+            <div class="trigger_mnu">
+                <a class="menu-trigger" href="#">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </a>
+            </div>
+
+
+        </div>
+    </header>
+
+    <aside class="go_top">
+    <img src="" /><br />
+    	<span>TOP</span>
+    </aside>
+
+
+
+
+
+ <section class="main_visual">
+ 	<h2 class="sr_only">메인영역</h2>
+  <!-- 메인 비디오 슬라이드 -->
+    <article class="main-slider" style="width: 100%;">
+        <div>
+ 	        <img src="img/main_visual_01.jpg" alt="">
+            <video autoplay loop muted>
+                <source src="video/main_visual_01.mp4" type="video/mp4">
+            </video>
+            <article id="txt">
+                <strong class="wow fadeInUp"  data-wow-delay = ".5s ">Confidence</strong>
+                <p class="wow fadeInUp">고객의 신뢰를 최우선으로 생각합니다. </p>
+            </article>
+        </div>
+    </article>
+      <!-- 하단으로 -->
+    <aside class="go_contents">
+    	SCROLL<br />DOWN
+    </aside>
+</section>
+
+
+<div id="m_contents">
+	<h2 class="sr_only">메인 본문 영역</h2>
+    <section class="main_section main_about clear_fix">
+    	<article class="m_left wow fadeInLeft">
+    		<div class="overlay_bg"></div>
+    		<div class="txt">
+    			<h3>세상을 바꾸는 혁신</h3>
+    			<p>건설산업의 더 큰 미래를 그려갑니다.</p>
+    			<a href="aboutus_corevalue.php" class="m_view">Detail View<img src="" alt="더보기" /></a>
+    		</div>
+    	</article>
+    	<article class="m_right wow fadeInRight">
+    		<div class="overlay_bg"></div>
+    		<div class="txt">
+    			<h3>차별화된 솔루션</h3>
+    			<p>독창적인 발상으로 <br />복합 문화 토탈 솔루션을 제공합니다.</p>
+    			<a href="business_process.php" class="m_view">Detail View<b><img src="" alt="더보기" /></b></a>
+    		</div>
+    	</article>
+    </section>
+    <section class="main_section main_company">
+    	<h3>회사전경<span>The front view of the company</span></h3>
+    	<article>
+    		<ul class="clear_fix">
+    			<li class="wow fadeInLeft" data-wow-delay = ".1s "><img src="" alt="회사전경" /></li>
+    			<li class="wow fadeInUp" data-wow-delay = ".3s "><img src="" alt="회사전경" /></li>
+    			<li class="wow fadeInRight" data-wow-delay = ".6s "><img src="" alt="회사전경" /></li>
+    		</ul>
+    	</article>
+    </section>
+
+</div>
+
+
+
+
+
+
+    <footer>
+    	<h2 class="sr_only">하단영역</h2>
+   		 <div id="ft_container" class="clear_fix">
+        	<h2 class="ft_logo"><a href="/"><img src="" alt="더로열컴퍼니" /></a></h2>
+        	<div class="ft_info">
+        		<address>
+        			서울특별시 강남구 테헤란로 111-00<span>TEL <a href="tel:02-000-0000">02-000-0000</a></span>FAX 02-000-0000
+        		</address>
+        		<p>Copyright ⓒ 2019 The royal Company. All Rights Reserved.</p>
+        	</div>
+        	<div class="ft_mnu clear_fix">
+        		<a href="/aboutus_contactus.php">오시는길</a>
+        		<!-- a href="#">개인정보처리방침</a-->
+        	</div>
+    	</div>
+    </footer>
+
+
+</body>
+</html>
